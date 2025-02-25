@@ -1,5 +1,7 @@
 <template>
     <Navbar />
+
+    <!--Secao principal-->
     <section class="secao-principal d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -23,6 +25,7 @@
         </div>
     </section>
 
+    <!--Day Trade-->
     <section class="secao-copy-trade d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -38,6 +41,24 @@
                     <div class="d-flex justify-content-md-start justify-content-center">
                         <button class="btn-copy-inova me-4">Quero o Copy Inova</button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Baixar App Inova-->
+    <section class="secao-baixar-app">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 mt-5">
+                    <h1 class="mb-4">Baixar App Inova</h1>
+                    <p class="mb-4">Nossos aplicativos já estão disponíveis para Android e Desktop. Baixe agora e tenha uma
+                        experiência Inova. Clique para instalar</p>
+                    
+                        <div class="d-flex justify-content-center mb-5">
+                            <img style="height: 50px; cursor: pointer;" class="img-fluid me-3" src="../assets/imgs/HOME NOVA/google-botao-inova.png">
+                            <img style="height: 50px; cursor: pointer;" class="img-fluid" src="../assets/imgs/HOME NOVA/windows-botao-inova.png">
+                        </div>
                 </div>
             </div>
         </div>
