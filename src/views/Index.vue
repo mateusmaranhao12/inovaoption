@@ -79,7 +79,7 @@
                     Bônus de entrada, Bônus de depósito e Cashback caso precise.
                 </p>
             </div>
-            <div class="row g-4">
+            <div class="row g-4 mb-5">
                 <div class="col-md-4" v-for="(card, index) in cards" :key="index">
                     <div class="card h-100 shadow-sm">
                         <img :src="require(`../assets/imgs/${card.image}.jpg`)" class="card-img-top rounded-top"
@@ -98,6 +98,7 @@
     <section class="depositos-e-saques py-5">
         <div class="container text-center">
             <div class="mb-4">
+                <button class="btn btn-receba mb-5">Receba R$30,00 grátis</button>
                 <p class="deposito-e-saque mb-1">DEPÓSITO E SAQUE</p>
                 <h2>Depósitos e Retiradas Instantâneos</h2>
                 <p>
@@ -106,12 +107,12 @@
                     Depósito Mínimo: R$60 via PIX.
                 </p>
             </div>
-            <button class="btn btn-abrir-conta mb-5">Abrir Conta</button>
             <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap overflow-hidden">
                 <img v-for="(logo, index) in paymentLogos" :key="index" class="img-fluid"
                     :src="require(`../assets/imgs/${logo.src}.webp`)" :alt="logo.alt"
                     style="max-height: 50px; cursor: pointer;">
             </div>
+            <button class="btn btn-receba mb-3 mt-3">Receba R$30,00 grátis</button>
         </div>
     </section>
 

@@ -17,22 +17,22 @@
                     </p>
                 </div>
 
+                <!-- Seção de Política e Termos -->
+                <div class="col-md-4 text-center">
+                    <h5 class="text-white mb-3">Política e Termos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Programa de Afiliados</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos & Condições</a></li>
+                    </ul>
+                </div>
+
                 <!-- Seção de Ajuda -->
                 <div class="col-md-4">
                     <h5 class="text-white mb-3">Ajuda</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Central de Ajuda</a></li>
                         <li><a href="mailto:support@inovaoption.com">support@inovaoption.com</a></li>
-                    </ul>
-                </div>
-
-                <!-- Seção de Política e Termos -->
-                <div class="col-md-4">
-                    <h5 class="text-white mb-3">Política e Termos</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Programa de Afiliados</a></li>
-                        <li><a href="#">Política de Privacidade</a></li>
-                        <li><a href="#">Termos & Condições</a></li>
                     </ul>
                 </div>
             </div>
