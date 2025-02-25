@@ -14,7 +14,7 @@
                         R$50.000 para sua conta de treinamento.</p>
                     <div class="d-flex justify-content-md-start justify-content-center">
                         <button class="btn-negociar me-3">Negociar</button>
-                        <button class="btn-conta-pratica">Conta Prática</button>
+                        <button class="btn-conta-pratica">Conta de Prática</button>
                     </div>
                 </div>
                 <div class="col-md-6 mt-5">
@@ -27,15 +27,16 @@
     <!--Day Trade-->
     <section class="secao-copy-trade d-flex align-items-center">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center">
                 <div class="col-md-6 order-2 order-md-1 copy-inova">
                     <img class="img-fluid" src="../assets/imgs/PLATAFORMA/new-image-3.png" alt="Mockup Inova Option">
                 </div>
                 <div class="col-md-6 order-1 order-md-2 copy-inova">
                     <h1>Chegou! <br> Copy Trade Inova</h1>
                     <p>Copie os melhores traders do mundo e lucre toda vez que eles lucrarem. Esta é a melhor ferramenta
-                        para quem ainda não tem experiência e quer copiar um Trader lucrativo e experiente dentro da
-                        Inova. <b>Comece agora mesmo!</b>
+                        para quem ainda não tem experiência e quer copiar um Trader lucrativo e experiente enquanto
+                        aprende. E também para você que tem experiência mas não tem tempo de negociar. <b>Comece agora
+                            mesmo!</b>
                     </p>
                     <div class="d-flex justify-content-md-start justify-content-center">
                         <button class="btn-copy-inova me-4">Abrir minha conta</button>
@@ -54,7 +55,7 @@
                     <p class="mb-4">Nossos aplicativos já estão disponíveis para Android e Desktop. Baixe agora e tenha
                         uma
                         experiência Inova. Clique para instalar</p>
-                        
+
                     <div class="d-flex justify-content-center flex-wrap mb-5 overflow-hidden">
                         <img style="height: 50px; cursor: pointer;" class="img-fluid me-3"
                             src="../assets/imgs/HOME NOVA/google-botao-inova.png" alt="Botão Google">
