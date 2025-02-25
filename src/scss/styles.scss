@@ -425,6 +425,12 @@ body {
 }
 
 @media(max-width: 768px) {
+
+    .container-menor {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
     .secao-principal {
 
         h1,
