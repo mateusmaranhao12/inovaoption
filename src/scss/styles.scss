@@ -1,9 +1,6 @@
-//Navbar
-
 body {
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), /* Sobreposição preta com opacidade */
-        url('../assets/imgs/forex-day-trading-1920x1200-13825.jpg');
+    background-color: #141c2c; /* Cor de fundo sólida */
+    background-image: url('../assets/imgs/HOME NOVA/graficos-animacao.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,10 +10,10 @@ body {
     overflow-x: hidden;
 }
 
-
+//Navbar
 .navbar-projeto {
 
-    background-color: #16273d;
+    background-color: #141c3c;
     padding: 20px;
     border-radius: 20px;
     border: 2px solid rgb(75, 96, 110);
@@ -47,14 +44,10 @@ body {
         font-size: 20px;
     }
 
-    .copy-inova {
-        margin-top: 200px;
-    }
-
     .btn-negociar {
-        background-color: #ff9900;
+        background-color: #ff6600;
         border-radius: 10px;
-        border: 2px solid orangered;
+        border: none;
         padding: 10px;
         width: 150px;
         color: #fff;
@@ -62,28 +55,55 @@ body {
         transition: .3s ease;
 
         &:hover {
-            background-color: #ff6600;
+            background-color: orangered;
         }
     }
 
     .btn-conta-pratica {
-        background: none;
-        color: #006eff;
-        border: 2px solid #006eff;
+        background-color: #006eff;
+        border: none;
+        color: #fff;
         border-radius: 10px;
         font-weight: bold;
         transition: .3s ease;
 
         &:hover {
-            background-color: #006eff;
+            background-color: #00449c;
             color: #fff;
         }
     }
 
+}
+
+//Copy Trade
+.secao-copy-trade {
+
+    margin-top: 50px;
+    background-color: #141c2c;
+
+    h1 {
+        color: #daddff;
+        font-weight: bold;
+        max-width: 50%;
+    }
+
+    p {
+        color: #daddff;
+        font-weight: 500;
+        max-width: 75%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .copy-inova {
+        margin-top: 100px;
+    }
+
     .btn-copy-inova {
-        background-color: #ff9900;
+        background-color: #ff6600;
         border-radius: 10px;
-        border: 2px solid orangered;
+        border: none;
         padding: 10px;
         width: 250px;
         color: #fff;
@@ -91,15 +111,16 @@ body {
         transition: .3s ease;
 
         &:hover {
-            background-color: #ff6600;
+            background-color: orangered;
         }
     }
-
 }
 
 @media(max-width: 768px) {
     .secao-principal {
-        h1, p {
+
+        h1,
+        p {
             text-align: center;
             max-width: 100%;
         }

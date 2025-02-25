@@ -19,10 +19,15 @@
                     <img class="img-fluid" src="../assets/imgs/PLATAFORMA/MC/INOVA-OPTION-MOCKUP.png"
                         alt="Mockup Inova Option">
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="secao-copy-trade d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-md-6 order-2 order-md-1 copy-inova">
-                    <img class="img-fluid" src="../assets/imgs/PLATAFORMA/new-image-3.png"
-                        alt="Mockup Inova Option">
+                    <img class="img-fluid" src="../assets/imgs/PLATAFORMA/new-image-3.png" alt="Mockup Inova Option">
                 </div>
                 <div class="col-md-6 order-1 order-md-2 copy-inova">
                     <h1>Copy Trade Inova</h1>
