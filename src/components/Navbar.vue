@@ -1,7 +1,7 @@
 <template>
         <nav class="navbar navbar-projeto navbar-expand-lg">
             <div class="container-fluid">
-                <img class="img-fluid" src="../assets/imgs/LOGO/INOVA-OPTION-BRANCO-2.png">
+                <img class="img-fluid" src="../assets/imgs/LOGO/inova-option-logo-branca.png">
                 <button class="btn btn-entrar" type="button">Entrar</button>
             </div>
         </nav>
