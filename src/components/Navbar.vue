@@ -3,7 +3,7 @@
         <nav class="navbar navbar-projeto navbar-expand-lg">
             <div class="container-fluid">
                 <img class="img-fluid" src="../assets/imgs/LOGO/INOVA-OPTION-BRANCO-2.png">
-                <button class="btn btn-primary" type="button">ENTRAR</button>
+                <button class="btn btn-entrar" type="button">Entrar</button>
             </div>
         </nav>
     </div>
