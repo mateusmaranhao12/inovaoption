@@ -318,7 +318,7 @@ body {
 
     p {
         font-size: 1.2rem;
-        color: #b0b3b8;
+        color: #fff;
         margin-bottom: 20px;
     }
 
@@ -434,7 +434,7 @@ body {
             list-style: none;
 
             li a {
-                color: #c6dfff;
+                color: #fff;
                 text-decoration: none;
 
                 &:hover {
@@ -465,6 +465,14 @@ body {
                 text-decoration: underline;
             }
         }
+    }
+
+    .descarregar {
+        margin-left: 170px;
+    }
+
+    .margin-footer {
+        margin-left: 50px;
     }
 
     .btn-social {
@@ -519,7 +527,7 @@ body {
     }
 
     .regulamentos {
-        color: gray;
+        color: #c6dfff;
 
         &:hover {
             text-decoration: underline;
@@ -642,6 +650,14 @@ body {
         .texto-footer {
             font-size: 10px;
         }
+
+        .descarregar {
+            margin-left: 0px;
+        }
+
+        .margin-footer {
+            margin-left: 0px;
+        }
     }
 }
 
@@ -650,5 +666,15 @@ body {
         flex-direction: row;
         justify-content: space-between;
         padding: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .descarregar {
+        margin-left: 0px;
+    }
+
+    .btn-social {
+        width: 100% !important; 
     }
 }

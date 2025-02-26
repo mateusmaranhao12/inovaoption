@@ -1,6 +1,6 @@
 <template>
     <footer class="rodape py-5">
-        <div class="container bg-footer">
+        <div class="bg-footer">
             <div class="row">
                 <!-- Seção da Logo -->
                 <div class="col-md-2 d-flex justify-content-center align-items-center">
@@ -11,8 +11,8 @@
                 <div class="col-md-6 d-flex flex-wrap justify-content-around align-items-center">
                     <!-- Perguntas Frequentes -->
                     <div class="footer-section mb-4">
-                        <h5 class="text-white">Perguntas frequentes</h5>
-                        <ul class="list-unstyled">
+                        <h5 class="margin-footer text-white">Perguntas frequentes</h5>
+                        <ul class="margin-footer list-unstyled">
                             <li><a href="https://pt.inovaoption.com/faq" target="_blank">Questões gerais</a></li>
                             <li><a href="https://pt.inovaoption.com/faq/#financial" target="_blank">Questões
                                     financeiras</a></li>
@@ -23,8 +23,8 @@
 
                     <!-- Mais -->
                     <div class="footer-section" style="margin-bottom: 58px;">
-                        <h5 class="text-white">Mais</h5>
-                        <ul class="list-unstyled">
+                        <h5 class="margin-footer text-white">Mais</h5>
+                        <ul class="margin-footer list-unstyled">
                             <li><a href="https://inovaoption.com/auth/register" target="_blank">Conta de prática</a>
                             </li>
                             <li><a href="https://inovaoption.com/affiliate" target="_blank">Programa de afiliados <i
@@ -34,8 +34,8 @@
 
                     <!-- Ajuda -->
                     <div class="footer-section" style="margin-bottom: 58px;">
-                        <h5 class="text-white ajuda">Ajuda</h5>
-                        <ul class="list-unstyled">
+                        <h5 class="margin-footer text-white ajuda">Ajuda</h5>
+                        <ul class="margin-footer list-unstyled">
                             <li><a href="https://t.me/inovaoption" target="_blank">Suporte</a></li>
                             <li><a href="mailto:support@inovaoption.com" target="_blank">support@inovaoption.com</a>
                             </li>
@@ -45,34 +45,38 @@
 
                 <!--Descarregar a aplicação-->
                 <div class="col-md-4">
-                    <h6>Descarregar a aplicação</h6>
-                    <div class="download-buttons mt-2 mb-4">
-                        <a href="https://api.inovaoption.com/assets/images/download/inova_option-ANDROID.apk"
-                            target="_blank">
-                            <img src="../assets/imgs/HOME NOVA/google-botao-inova.png" class="img-fluid"
-                                alt="Google Play">
-                        </a>
-                        <a href="https://api.inovaoption.com/assets/images/download/InovaOption-WINDOWS.msi"
-                            target="_blank">
-                            <img src="../assets/imgs/HOME NOVA/windows-botao-inova.png" class="img-fluid" alt="Windows">
-                        </a>
-                    </div>
+                    <div class="descarregar">
+                        <h6>Descarregar a aplicação</h6>
+                        <div class="download-buttons mt-2 mb-4">
+                            <a href="https://api.inovaoption.com/assets/images/download/inova_option-ANDROID.apk"
+                                target="_blank">
+                                <img src="../assets/imgs/HOME NOVA/google-botao-inova.png" class="img-fluid"
+                                    alt="Google Play">
+                            </a>
+                            <a href="https://api.inovaoption.com/assets/images/download/InovaOption-WINDOWS.msi"
+                                target="_blank">
+                                <img src="../assets/imgs/HOME NOVA/windows-botao-inova.png" class="img-fluid"
+                                    alt="Windows">
+                            </a>
+                        </div>
 
-                    <h6>Siga-nos nas redes sociais</h6>
-                    <div class="social-icons d-flex flex-column mt-2">
-                        <a href="https://www.facebook.com/inovaoption" target="_blank"
-                            class="btn-social text-md-start text-center"> <i class="fab fa-facebook"></i>
-                            Facebook</a>
-                        <a href="https://www.instagram.com/inovaoption" target="_blank"
-                            class="btn-social text-md-start text-center"> <i class="fab fa-instagram"></i>
-                            Instagram</a>
-                        <a href="https://t.me/inovaoption" target="_blank" class="btn-social text-md-start text-center">
-                            <i class="fab fa-telegram"></i>
-                            Telegram</a>
-                        <a href="https://www.youtube.com/@inovaoption" target="_blank"
-                            class="btn-social text-md-start text-center">
-                            <i class="fab fa-youtube"></i>
-                            YouTube</a>
+                        <h6>Siga-nos nas redes sociais</h6>
+                        <div class="social-icons d-flex flex-column mt-2">
+                            <a href="https://www.facebook.com/inovaoption" target="_blank"
+                                class="btn-social text-md-start text-center"> <i class="fab fa-facebook"></i>
+                                Facebook</a>
+                            <a href="https://www.instagram.com/inovaoption" target="_blank"
+                                class="btn-social text-md-start text-center"> <i class="fab fa-instagram"></i>
+                                Instagram</a>
+                            <a href="https://t.me/inovaoption" target="_blank"
+                                class="btn-social text-md-start text-center">
+                                <i class="fab fa-telegram"></i>
+                                Telegram</a>
+                            <a href="https://www.youtube.com/@inovaoption" target="_blank"
+                                class="btn-social text-md-start text-center">
+                                <i class="fab fa-youtube"></i>
+                                YouTube</a>
+                        </div>
                     </div>
                 </div>
             </div>
