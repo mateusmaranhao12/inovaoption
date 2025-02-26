@@ -13,8 +13,8 @@
                     <p>Registre-se grátis e receba R$30 reais de boas-vindas, 150% de bônus no seu primeiro depósito e
                         R$50.000 para sua conta de treinamento.</p>
                     <div class="d-flex justify-content-md-start justify-content-center">
-                        <button class="btn-negociar me-3">Negociar</button>
-                        <button class="btn-conta-pratica">Conta de Prática</button>
+                        <a href="https://inovaoption.com/trade" class="btn-negociar me-3">Negociar</a>
+                        <a href="https://inovaoption.com/auth/register" class="btn-conta-pratica">Conta de Prática</a>
                     </div>
                 </div>
                 <div class="col-md-6 mt-5">
@@ -39,7 +39,8 @@
                             mesmo!</b>
                     </p>
                     <div class="d-flex justify-content-md-start justify-content-center">
-                        <button class="btn-copy-inova me-4">Abrir minha conta</button>
+                        <a href="https://inovaoption.com/auth/register" class="btn-copy-inova me-4">Abrir minha
+                            conta</a>
                     </div>
                 </div>
             </div>
@@ -57,10 +58,13 @@
                         experiência Inova. Clique para instalar</p>
 
                     <div class="d-flex justify-content-center flex-wrap mb-5 overflow-hidden">
-                        <img style="height: 50px; cursor: pointer;" class="img-fluid me-3"
-                            src="../assets/imgs/HOME NOVA/google-botao-inova.png" alt="Botão Google">
-                        <img style="height: 50px; cursor: pointer;" class="img-fluid"
-                            src="../assets/imgs/HOME NOVA/windows-botao-inova.png" alt="Botão Windows">
+                        <a href="https://api.inovaoption.com/assets/images/download/inova_option-ANDROID.apk">
+                            <img style="height: 50px; cursor: pointer;" class="img-fluid me-3"
+                                src="../assets/imgs/HOME NOVA/google-botao-inova.png" alt="Botão Google">
+                        </a>
+                        <a href="https://api.inovaoption.com/assets/images/download/InovaOption-WINDOWS.msi"><img
+                                style="height: 50px; cursor: pointer;" class="img-fluid"
+                                src="../assets/imgs/HOME NOVA/windows-botao-inova.png" alt="Botão Windows"></a>
                     </div>
 
                 </div>
@@ -91,6 +95,9 @@
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center">
+                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-5">Começe com R$30,00 grátis</a>
+            </div>
         </div>
     </section>
 
@@ -98,7 +105,6 @@
     <section class="depositos-e-saques py-5">
         <div class="container text-center">
             <div class="mb-4">
-                <button class="btn btn-receba mb-5">Receba R$30,00 grátis</button>
                 <p class="deposito-e-saque mb-1">DEPÓSITO E SAQUE</p>
                 <h2>Depósitos e Retiradas Instantâneos</h2>
                 <p>
@@ -112,7 +118,6 @@
                     :src="require(`../assets/imgs/${logo.src}.webp`)" :alt="logo.alt"
                     style="max-height: 50px; cursor: pointer;">
             </div>
-            <button class="btn btn-receba mb-3 mt-3">Receba R$30,00 grátis</button>
         </div>
     </section>
 
@@ -134,12 +139,16 @@
                     </div>
                 </div>
             </div>
+
+            <div class="d-flex justify-content-center">
+                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-3 mt-3">Começe com R$30,00 grátis</a>
+            </div>
         </div>
     </section>
 
     <!--Footer-->
     <Footer />
-    
+
 </template>
 
 <script lang="ts">

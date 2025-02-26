@@ -1,39 +1,52 @@
 <template>
     <footer class="rodape py-5">
-        <div class="container">
+        <div class="container bg-footer">
             <div class="row">
-                <!-- Seção da Logo e Descrição -->
-                <div class="col-md-4">
-                   <img src="../assets/imgs/LOGO/inova-option-logo-branca.png" style="height: 30px;" class="img-fluid">
-                    <p class="mt-3">
-                        Inova Option fornece seus serviços exclusivamente nos territórios em que é licenciada. Inova
-                        Option não está
-                        autorizada pela Comissão de Valores Mobiliários (CVM) a oferecer diretamente serviços de
-                        distribuição de valores
-                        mobiliários a investidores residentes, domiciliados ou incorporados na República Federativa do
-                        Brasil. Nada
-                        neste site deve ser entendido como uma oferta direta de serviços endereçados a esses
-                        investidores.
-                    </p>
+                <!-- Seção da Logo -->
+                <div class="col-md-2">
+                    <img src="../assets/imgs/LOGO/inova-option-logo-branca.png" style="height: 25px;"
+                        class="img-fluid mb-4">
                 </div>
 
-                <!-- Seção de Política e Termos -->
-                <div class="col-md-4 text-center">
-                    <h5 class="text-white mb-3">Política e Termos</h5>
+                <!-- Perguntas Frequentes -->
+                <div class="col-md-2">
+                    <h5>Perguntas frequentes <span class="arrow">&gt;</span></h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Programa de Afiliados</a></li>
-                        <li><a href="#">Política de Privacidade</a></li>
-                        <li><a href="#">Termos & Condições</a></li>
+                        <li><a href="#">Questões gerais</a></li>
+                        <li><a href="#">Questões financeiras</a></li>
+                        <li><a href="#">Verificação</a></li>
                     </ul>
                 </div>
 
-                <!-- Seção de Ajuda -->
-                <div class="col-md-4">
-                    <h5 class="text-white mb-3">Ajuda</h5>
+                <!-- Sobre Nós -->
+                <div class="col-md-2">
+                    <h5>Sobre nós <span class="arrow">&gt;</span></h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Central de Ajuda</a></li>
-                        <li><a href="mailto:support@inovaoption.com">support@inovaoption.com</a></li>
+                        <li><a href="#">Contatos</a></li>
                     </ul>
+                </div>
+
+                <!-- Mais e Aplicativo -->
+                <div class="col-md-2">
+                    <h5>Mais</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Conta demo</a></li>
+                        <li><a href="#">Programa de afiliados <i class="fas fa-external-link-alt"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h6 >Descarregar a aplicação</h6>
+                    <a href="#" class="d-flex justify-content-md-start justify-content-center mt-2 mb-4">
+                        <img src="../assets/imgs/HOME NOVA/google-botao-inova.png" style="height: 50px;"
+                            class="img-fluid">
+                    </a>
+                    <h6>Siga-nos nas redes sociais</h6>
+                    <div class="social-icons d-flex flex-column gap-2 mt-2">
+                        <a href="#" class="btn-social"> <i class="fab fa-facebook"></i> 10K+</a>
+                        <a href="#" class="btn-social"> <i class="fab fa-instagram"></i> 76K+</a>
+                        <a href="#" class="btn-social"> <i class="fab fa-telegram"></i> 90K+</a>
+                    </div>
                 </div>
             </div>
         </div>
