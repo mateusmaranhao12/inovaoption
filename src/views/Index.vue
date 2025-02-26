@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center">
-                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mt-5 mb-5">comece com R$30,00
+                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mt-5 mb-5">Comece com R$30,00
                     grátis</a>
             </div>
         </div>
@@ -140,7 +140,7 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-3 mt-5">comece com R$30,00
+                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-3 mt-5">Comece com R$30,00
                     grátis</a>
             </div>
         </div>

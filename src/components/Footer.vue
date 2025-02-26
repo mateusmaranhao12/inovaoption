@@ -22,7 +22,7 @@
                     </div>
 
                     <!-- Mais -->
-                    <div class="footer-section mb-4">
+                    <div class="footer-section" style="margin-bottom: 58px;">
                         <h5 class="text-white">Mais</h5>
                         <ul class="list-unstyled">
                             <li><a href="https://inovaoption.com/auth/register" target="_blank">Conta de prática</a>
@@ -33,8 +33,8 @@
                     </div>
 
                     <!-- Ajuda -->
-                    <div class="footer-section mb-4">
-                        <h5 class="text-white">Ajuda</h5>
+                    <div class="footer-section" style="margin-bottom: 58px;">
+                        <h5 class="text-white ajuda">Ajuda</h5>
                         <ul class="list-unstyled">
                             <li><a href="https://t.me/inovaoption" target="_blank">Suporte</a></li>
                             <li><a href="mailto:support@inovaoption.com" target="_blank">support@inovaoption.com</a>
