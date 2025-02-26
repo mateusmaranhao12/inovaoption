@@ -1,6 +1,5 @@
 body {
     background-color: #111727;
-    background-image: url('../assets/imgs/HOME NOVA/graficos-animacao.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +7,21 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+//animacoes
+@keyframes moverFundo {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 //Navbar
@@ -57,8 +71,10 @@ body {
 //secao principal
 .secao-principal {
 
-    background-color: #111727;
+    background-image: url('../assets/imgs/HOME NOVA/graficos-animacao.png');
     margin-top: 50px;
+
+    animation: moverFundo 60s linear infinite;
 
     h1 {
         color: #fff;
@@ -305,7 +321,7 @@ body {
     }
 
     .img-fluid {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     img {
@@ -403,7 +419,7 @@ body {
     padding: 60px 0;
 
     .bg-footer {
-        background-color: #060c1a;
+        background-color: #0B1120;
         border-radius: 10px;
         padding: 30px;
     }
@@ -418,6 +434,10 @@ body {
         a {
             color: #9dbcff;
             text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 
@@ -430,18 +450,56 @@ body {
         font-weight: bold;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        width: 100%;
         text-decoration: none;
+        transition: .3s ease;
+        width: 80%;
+        justify-content: start;
 
         i {
             margin-right: 10px;
+        }
+
+        &:hover {
+            background-color: #00449c;
+            color: #fff;
         }
     }
 
     .social-icons {
         gap: 10px;
     }
+
+    .download-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 10px;
+        overflow-x: hidden;
+
+        a {
+            flex: 1 1 auto;
+            max-width: 150px;
+
+            img {
+                height: 50px;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    ul.list-unstyled li {
+        margin-bottom: 10px;
+    }
+
+    .regulamentos {
+        color: gray;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
 }
 
 @media(max-width: 768px) {
@@ -524,6 +582,19 @@ body {
 
     .rodape {
         text-align: center;
+
+        .col-md-2 {
+            margin-top: 10px;
+        }
+
+        .btn-social {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .download-buttons {
+            justify-content: center;
+        }
     }
 }
 

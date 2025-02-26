@@ -96,7 +96,8 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center">
-                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-5">Começe com R$30,00 grátis</a>
+                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mt-5 mb-5">Começe com R$30,00
+                    grátis</a>
             </div>
         </div>
     </section>
@@ -109,14 +110,12 @@
                 <h2>Depósitos e Retiradas Instantâneos</h2>
                 <p>
                     Utilize seu pix ou escolha entre vários sistemas de pagamento para retirar e depositar seus fundos
-                    de forma rápida e segura.
-                    Depósito Mínimo: R$60 via PIX.
+                    de forma rápida e segura.<br>
+                    Depósito Mínimo: R$60
                 </p>
             </div>
             <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap overflow-hidden">
-                <img v-for="(logo, index) in paymentLogos" :key="index" class="img-fluid"
-                    :src="require(`../assets/imgs/${logo.src}.webp`)" :alt="logo.alt"
-                    style="max-height: 50px; cursor: pointer;">
+                <img class="img-fluid" src="../assets/imgs/inova-pagamentos.png" style="cursor: pointer;">
             </div>
         </div>
     </section>
@@ -141,7 +140,8 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-3 mt-3">Começe com R$30,00 grátis</a>
+                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-3 mt-5">Começe com R$30,00
+                    grátis</a>
             </div>
         </div>
     </section>
@@ -184,13 +184,6 @@ export default class Index extends Vue {
             title: 'Suporte humano e disponível 24h',
             description: 'Nossa equipe de suporte está sempre pronta para ajudar, oferecendo atendimento humanizado 24 horas por dia.'
         }
-    ]
-
-    paymentLogos = [
-        { src: 'pix', alt: 'Pix' },
-        { src: 'mastercard', alt: 'Mastercard' },
-        { src: 'visa', alt: 'Visa' },
-        { src: 'btc', alt: 'Bitcoin' }
     ]
 
     etapas = [
