@@ -6,18 +6,18 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6 mt-5">
-                    <h1>Negocie Ações, <br> Forex e Criptomoedas</h1>
-                    <p>Invista nos ativos mais populares e procurados do mundo com o jeito Inova de ser: sem delay,
+                    <h1 class="animate__animated animate__fadeIn negocie-acoes-delay">Negocie Ações, <br> Forex e Criptomoedas</h1>
+                    <p class="animate__animated animate__fadeIn p-delay">Invista nos ativos mais populares e procurados do mundo com o jeito Inova de ser: sem delay,
                         somente no mercado real (sem OTC) de forma justa e transparente.
                     </p>
-                    <p>Registre-se grátis e receba R$30 reais de boas-vindas, 150% de bônus no seu primeiro depósito e
+                    <p class="animate__animated animate__fadeIn p-delay">Registre-se grátis e receba R$30 reais de boas-vindas, 150% de bônus no seu primeiro depósito e
                         R$50.000 para sua conta de treinamento.</p>
-                    <div class="d-flex justify-content-md-start justify-content-center">
+                    <div class="animate__animated animate__fadeIn btns-delay d-flex justify-content-md-start justify-content-center">
                         <a href="https://inovaoption.com/trade" class="btn-negociar me-3">Negociar</a>
                         <a href="https://inovaoption.com/auth/register" class="btn-conta-pratica">Conta de Prática</a>
                     </div>
                 </div>
-                <div class="col-md-6 mt-5">
+                <div class="animate__animated animate__fadeIn img-delay col-md-6 mt-5">
                     <img class="img-fluid" src="../assets/imgs/HOME NOVA/moackup-inova.png" alt="Mockup Inova Option">
                 </div>
             </div>
@@ -25,7 +25,7 @@
     </section>
 
     <!--Day Trade-->
-    <section class="secao-copy-trade d-flex align-items-center">
+    <section class="secao-copy-trade d-flex align-items-center" data-aos="fade-in">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 order-2 order-md-1 copy-inova">
@@ -48,7 +48,7 @@
     </section>
 
     <!--Baixar App Inova-->
-    <section class="secao-baixar-app">
+    <section class="secao-baixar-app" data-aos="fade-in">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-12 mt-5">
@@ -73,7 +73,7 @@
     </section>
 
     <!--Por que escolher-->
-    <section class="por-que-escolher py-5">
+    <section class="por-que-escolher py-5" data-aos="fade-in">
         <div class="container">
             <div class="text-center mb-5">
                 <h1>Por que escolher a InovaOption?</h1>
@@ -103,7 +103,7 @@
     </section>
 
     <!--Depositos e saques-->
-    <section class="depositos-e-saques py-5">
+    <section class="depositos-e-saques py-5" data-aos="fade-in">
         <div class="container text-center">
             <div class="mb-4">
                 <p class="deposito-e-saque mb-1">DEPÓSITO E SAQUE</p>
@@ -121,7 +121,7 @@
     </section>
 
     <!--Etapas-->
-    <section class="etapas py-5">
+    <section class="etapas py-5" data-aos="fade-in">
         <div class="container text-center">
             <p class="text-primary mb-1">Comece a Negociar em 3 Etapas</p>
             <h2 class="text-white mb-5">Simples, rápido e eficaz.</h2>
@@ -147,7 +147,7 @@
     </section>
 
     <!--Footer-->
-    <Footer />
+    <Footer data-aos="fade-in" />
 
 </template>
 
@@ -155,6 +155,8 @@
 import Footer from '@/components/Footer.vue'
 import Navbar from '@/components/Navbar.vue'
 import { Options, Vue } from 'vue-class-component'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 @Options({
 
@@ -165,6 +167,13 @@ import { Options, Vue } from 'vue-class-component'
 
 })
 export default class Index extends Vue {
+
+    mounted() {
+        AOS.init({
+            duration: 1000, // Duração da animação (1 segundo)
+            once: true, // Anima apenas na primeira rolagem (evita repetição)
+        })
+    }
 
     cards = [
         {
