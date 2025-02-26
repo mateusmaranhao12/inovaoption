@@ -29,9 +29,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 order-2 order-md-1 copy-inova">
-                    <img class="img-fluid" src="../assets/imgs/PLATAFORMA/new-image-3.png" alt="Mockup Inova Option">
+                    <img class="animate__animated animate__fadeIn img-trade-delay img-fluid" src="../assets/imgs/PLATAFORMA/new-image-3.png" alt="Mockup Inova Option">
                 </div>
-                <div class="col-md-6 order-1 order-md-2 copy-inova">
+                <div class="animate__animated animate__fadeIn trade-delay col-md-6 order-1 order-md-2 copy-inova">
                     <h1>Chegou! <br> Copy Trade Inova</h1>
                     <p>Copie os melhores traders do mundo e lucre toda vez que eles lucrarem. Esta é a melhor ferramenta
                         para quem ainda não tem experiência e quer copiar um Trader lucrativo e experiente enquanto
@@ -49,7 +49,7 @@
 
     <!--Baixar App Inova-->
     <section class="secao-baixar-app" data-aos="fade-in">
-        <div class="container">
+        <div class="container animate__animated animate__fadeIn baixar-delay">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-12 mt-5">
                     <h1 class="mb-4">Baixar App Inova</h1>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center">
-                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mt-5 mb-5">Começe com R$30,00
+                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mt-5 mb-5">comece com R$30,00
                     grátis</a>
             </div>
         </div>
@@ -140,7 +140,7 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-3 mt-5">Começe com R$30,00
+                <a href="https://inovaoption.com/auth/register" class="btn btn-receba mb-3 mt-5">comece com R$30,00
                     grátis</a>
             </div>
         </div>

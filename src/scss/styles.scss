@@ -324,6 +324,7 @@ body {
 
     .img-fluid {
         margin-bottom: 20px;
+        width: 50%;
     }
 
     img {
@@ -420,6 +421,34 @@ body {
     color: #b0b3b8;
     padding: 60px 0;
 
+    .footer-section {
+        flex: 1 1 100%;
+
+        @media (min-width: 768px) {
+            flex: 1 1 30%;
+        }
+
+        h5 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 0;
+            list-style: none;
+
+            li a {
+                color: #c6dfff;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+
     .bg-footer {
         background-color: #0B1120;
         border-radius: 10px;
@@ -502,6 +531,19 @@ body {
         }
     }
 
+    .img-fluid {
+        transition: .3s ease;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+    }
+
+    .texto-footer {
+        font-size: 12px;
+    }
+
 }
 
 @media(max-width: 768px) {
@@ -580,6 +622,10 @@ body {
         p {
             font-size: 100%;
         }
+
+        .img-fluid {
+            width: 100%;
+        }
     }
 
     .rodape {
@@ -596,6 +642,10 @@ body {
 
         .download-buttons {
             justify-content: center;
+        }
+
+        .texto-footer {
+            font-size: 100%;
         }
     }
 }
